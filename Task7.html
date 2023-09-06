@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7</title>
+
+    <style>
+        div.verticaldiv {
+            border: 1px solid;
+            margin: 0;
+            padding: 10px;
+            width: 10%;
+        }
+
+        div.horizontaldiv {
+            border: 1px solid;
+            margin: 0;
+            padding: 10px;
+            width: auto;
+        }
+        ul {
+            position: relative;
+            list-style-type: none;
+            background-color: #96D4D4;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        ul.vertical {
+            width: 100%;
+        }
+
+        li a {
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        li a.active {
+           background-color: #f78c01fd;
+           color: white;
+        }    
+        
+        ul.horizontal {
+            overflow: hidden;
+        }
+        ul.horizontal li {
+            float: left;
+            border-right:1.5px solid #35ace4;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"> Index </a>
+    <br />
+    <h2 align="center"> Task 7 </h2>
+    <h2>Vertical Navigation Bar</h2>
+    <div class="verticaldiv">
+        <ul class="vertical">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#css">CSS</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#bootstrap">Bootstrap</a></li>
+        </ul>
+    </div>
+
+    <h2>Horizontal Navigation Bar</h2>
+    <div class="horizontaldiv">
+        <ul class="horizontal">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#java">Java</a></li>
+            <li><a href="#html">HTML</a></li>
+            <li><a href="#css">CSS</a></li>
+        </ul>
+    </div>
+</body>
+</html>

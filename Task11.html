@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 11</title>
+    <style>
+        #image-container {
+            max-width: 15%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+        }
+
+        .centre {
+            padding-left: 35%;
+        }
+
+        #name,
+        #psw,
+        #sub {
+            width: 10cm;
+            height: 1cm;
+        }
+
+        #sub {
+            background-color: rgb(8, 90, 8);
+            color: aliceblue;
+        }
+
+        .check {
+            margin-top: 15px;
+        }
+
+        #last {
+            background-color: rgb(211, 203, 203);
+            width: 47%;
+            height: 1cm;
+            display: flex;
+        }
+
+        .text {
+            margin-left: 195px;
+            margin-top: 10px;
+
+        }
+
+        #cancel {
+            height: 0.7cm;
+            margin-top: 5px;
+            margin-left: 3px;
+            color: white;
+            background-color: rgb(233, 53, 53);
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html"> Index </a>
+    <br />
+    <h2 align="center"> Task 11 </h2>
+
+    <img src="https://cdn3.iconfinder.com/data/icons/business-finance-ii-flat-multicolor-background-sha/2048/1282_-_Business_Woman-1024.png"
+        id="image-container">
+    <form class="centre">
+
+        <label for="name"><b>Username</b></label>
+        <br>
+        <input type="text" placeholder="Enter username" name="name" id="name" required>
+        <br>
+        <br>
+        <label for="psw"><b>Password</b></label>
+        <br>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+        <br>
+        <br>
+
+        <button type="submit" class="registerbtn" id="sub">Login</button>
+        <br>
+        <input type="checkbox" class="check">
+        <label for="check">Remember Me</label>
+        <br>
+        <br>
+        <div id="last">
+            <button type="submit" class="cancelbt" id="cancel">Cancel</button>
+            <h4 class="text"><a href="">Forgot password?</a></h4>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
